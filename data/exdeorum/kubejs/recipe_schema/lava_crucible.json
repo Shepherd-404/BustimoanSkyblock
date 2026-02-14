@@ -1,0 +1,1 @@
+{"keys":[{"name":"ingredient","type":"ingredient","role":"input"},{"name":"fluid","role":"output","type":"fluid_stack"}],"unique":["fluid"]}
