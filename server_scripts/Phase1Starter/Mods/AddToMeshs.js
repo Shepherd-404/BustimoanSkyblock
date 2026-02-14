@@ -1,5 +1,3 @@
-// Canola seeds and rice - 0.05% chance from sifting dirt (requires KubeJS Tweaks)
-
 ServerEvents.recipes((event) => {
   const Materials = { Dirt: "minecraft:dirt" }
   const Meshes = {
