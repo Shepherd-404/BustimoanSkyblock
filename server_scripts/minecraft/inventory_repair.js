@@ -1,6 +1,8 @@
-// Repair wooden and stone tools in inventory or crafting table
+// Repair wooden and stone tools + Ex Deorum crooks in inventory or crafting table
 // Wooden: tool + 1 plank (any) = repaired tool
 // Stone: tool + 1 cobblestone = repaired tool
+// Wooden crook: crook + 1 plank = repaired crook
+// Bone crook: bone_crook + 1 bone = repaired bone crook
 
 ServerEvents.recipes((event) => {
   const woodenTools = ["pickaxe", "axe", "shovel", "hoe", "sword"]
@@ -19,4 +21,8 @@ ServerEvents.recipes((event) => {
       "minecraft:cobblestone"
     ])
   })
+
+  // Ex Deorum crooks
+  event.shapeless("exdeorum:crook", ["exdeorum:crook", "#minecraft:planks"])
+  event.shapeless("exdeorum:bone_crook", ["exdeorum:bone_crook", "minecraft:bone"])
 })
