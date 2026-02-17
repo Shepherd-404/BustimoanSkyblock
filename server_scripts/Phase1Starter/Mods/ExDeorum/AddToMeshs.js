@@ -15,6 +15,17 @@ ServerEvents.recipes((event) => {
     NETHERITE: "exdeorum:netherite_mesh"
   }
 
+  // Remove pebbles from sieving (get them from dirt + pebble/empty hand instead)
+  const pebbles = [
+    "exdeorum:stone_pebble", "exdeorum:diorite_pebble", "exdeorum:granite_pebble",
+    "exdeorum:andesite_pebble", "exdeorum:deepslate_pebble", "exdeorum:tuff_pebble",
+    "exdeorum:calcite_pebble", "exdeorum:blackstone_pebble", "exdeorum:basalt_pebble"
+  ]
+  pebbles.forEach(function (p) {
+    event.remove({ output: p, type: "exdeorum:sieve" })
+    event.remove({ output: p, type: "exdeorum:compressed_sieve" })
+  })
+
   // Move glowstone from dust to crushed netherrack
   event.remove({
     input: "exdeorum:dust",

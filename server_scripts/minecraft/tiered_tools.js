@@ -40,28 +40,4 @@ ServerEvents.recipes((event) => {
       B: `exdeorum:${tier.prev}`
     })
   })
-
-  // --- EX DEORUM COMPRESSED HAMMERS ---
-  exTiers.forEach((tier) => {
-    const out = `exdeorum:compressed_${tier.out}`
-    const prev = `exdeorum:compressed_${tier.prev}`
-    event.remove({ output: out })
-    event.shaped(out, pattern, { M: tier.mat, B: prev })
-  })
-
-  // --- ALL THE ORES ORE HAMMERS ---
-  const atoTiers = [
-    { out: "iron_ore_hammer", prev: "copper_ore_hammer", mat: "minecraft:iron_ingot" },
-    { out: "bronze_ore_hammer", prev: "iron_ore_hammer", mat: "alltheores:bronze_ingot" },
-    { out: "invar_ore_hammer", prev: "bronze_ore_hammer", mat: "alltheores:invar_ingot" },
-    { out: "platinum_ore_hammer", prev: "invar_ore_hammer", mat: "alltheores:platinum_ingot" }
-  ]
-
-  atoTiers.forEach((tier) => {
-    event.remove({ output: `alltheores:${tier.out}` })
-    event.shaped(`alltheores:${tier.out}`, pattern, {
-      M: tier.mat,
-      B: `alltheores:${tier.prev}`
-    })
-  })
 })
