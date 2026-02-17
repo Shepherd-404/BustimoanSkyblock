@@ -2,7 +2,8 @@ BlockEvents.rightClicked((event) => {
     const { hand, block, player, item, facing } = event
     if (hand != "MAIN_HAND") return
     if (!block.hasTag("minecraft:dirt")) return
-    if (!item.isEmpty()) return
+    // Allow empty hand OR any pebble in hand
+    if (!item.isEmpty() && !Ingredient.of("#exdeorum:pebbles").test(item)) return
     if (!player.isShiftKeyDown()) return
     let loot = [
       "exdeorum:andesite_pebble",
