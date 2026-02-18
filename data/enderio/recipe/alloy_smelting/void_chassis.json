@@ -1,0 +1,11 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 3200,
+  "experience": 0.3,
+  "inputs": [
+    { "count": 4, "item": "enderio:grains_of_infinity" },
+    { "count": 1, "item": "minecraft:echo_shard" },
+    { "count": 1, "item": "immersiveengineering:sheetmetal_lead" }
+  ],
+  "output": { "count": 1, "id": "enderio:void_chassis" }
+}

@@ -46,15 +46,18 @@ ServerEvents.recipes((event) => {
     })
   }
 
-  ;["actuallyadditions:canola_seeds", "actuallyadditions:rice"].forEach((item) => {
-    sieving(item, Materials.Dirt, [
-      { mesh: Meshes.FLINT, amount: 1, chance: 0.0005 },
-      { mesh: Meshes.IRON, amount: 1, chance: 0.0005 },
-      { mesh: Meshes.GOLD, amount: 1, chance: 0.0005 },
-      { mesh: Meshes.DIAMOND, amount: 1, chance: 0.0005 },
-      { mesh: Meshes.NETHERITE, amount: 1, chance: 0.0005 }
-    ])
-  })
+  // Canola at iron+, rice at golden+ (per plan)
+  sieving("actuallyadditions:canola_seeds", Materials.Dirt, [
+    { mesh: Meshes.IRON, amount: 1, chance: 0.0005 },
+    { mesh: Meshes.GOLD, amount: 1, chance: 0.0005 },
+    { mesh: Meshes.DIAMOND, amount: 1, chance: 0.0005 },
+    { mesh: Meshes.NETHERITE, amount: 1, chance: 0.0005 }
+  ])
+  sieving("actuallyadditions:rice", Materials.Dirt, [
+    { mesh: Meshes.GOLD, amount: 1, chance: 0.0005 },
+    { mesh: Meshes.DIAMOND, amount: 1, chance: 0.0005 },
+    { mesh: Meshes.NETHERITE, amount: 1, chance: 0.0005 }
+  ])
 
   // Black quartz from sand - diamond 1%, netherite 3%
   sieving("actuallyadditions:black_quartz", Materials.Sand, [
