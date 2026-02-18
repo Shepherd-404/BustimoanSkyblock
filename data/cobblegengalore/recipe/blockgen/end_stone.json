@@ -1,0 +1,7 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {"id": "minecraft:end_stone", "count": 1},
+  "left": {"Name": "exdeorum:witch_water"},
+  "right": {"Name": "minecraft:lava"},
+  "modifier": {"Name": "minecraft:end_stone"}
+}
