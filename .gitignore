@@ -1,0 +1,47 @@
+
+## file types we want to exclude
+**/*.zip
+**/*.jar
+**/*.logs
+
+## TOP Level folders we want to exclude
+/logs
+/journeymap
+/crash-reports
+/data
+/datapacks
+/defaultconfigs
+/downloads
+/ESM
+/journeymap
+/local
+/logs
+/mods
+/patchouli_books
+/resourcepacks
+/saves
+/shaderpacks
+/skyblockbuilder
+/waypoints
+
+## Sub folders we want to exclude
+/config/jei/world
+/config/spark/tmp
+
+## TOP level files we want to exclude
+.curseclient
+command_history.txt
+minecraftinstance.json
+observable_announce
+servers.dat
+servers.dat_old
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+patchouli_data.json
+config/ItemLocks/nodes/**/*
+config/skyblockbuilder/templates/islands/default.nbt
+# we may add options.txt out of the .ignore in the future, but for now we want to ignore it to avoid merge conflicts
+options.txt 
+
+
