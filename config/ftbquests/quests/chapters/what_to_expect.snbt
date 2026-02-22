@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "what_to_expect"
+	group: ""
+	id: "2396FC885623C7F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D829A5DFB082A15"
+			tasks: [{
+				id: "51367493C51F7AF3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "50EE52459DEECF87"
+			tasks: [{
+				id: "35F57FE0DA8C30BE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "480920636BA86A36"
+			tasks: [{
+				id: "283D8D99AC95AEC3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

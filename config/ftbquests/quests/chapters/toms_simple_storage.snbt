@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "703D06FD9D6BA540"
+	id: "453CF4F6244C330A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B9A88FAF969B1E1"]
+			id: "072EFD249D8F659E"
+			tasks: [{
+				id: "0ACB6040E414AF76"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11BA06D95E654A4E"]
+			id: "1D81B212DAD2A0BB"
+			tasks: [{
+				id: "1FE0357A91E85C06"
+				item: { components: { "toms_storage:bound_pos": { bound_dim: "minecraft:overworld", bounds_pos: [I; 8222, 65, -1 ] } }, count: 1, id: "toms_storage:adv_wireless_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7712206F0EB87719"
+				"072EFD249D8F659E"
+			]
+			id: "11BA06D95E654A4E"
+			tasks: [{
+				id: "5E173E9F5F7E31AC"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D81B212DAD2A0BB"]
+			id: "6D1D4BA2CA5B52CF"
+			tasks: [{
+				id: "4243240F0146AE24"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+}

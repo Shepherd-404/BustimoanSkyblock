@@ -1,11 +1,11 @@
 // Tom's Simple Storage terminals: replace glowstone with Actually Additions crystal blocks
 
 ServerEvents.recipes((event) => {
-  // Storage terminal: glowstone dust -> Basic Engineering Block
+  // Storage terminal: glowstone dust -> empowered restonia crystal block
   event.replaceInput(
     { output: "toms_storage:storage_terminal" },
     "minecraft:glowstone_dust",
-    "immersiveengineering:basic_engineering"
+    "actuallyadditions:empowered_restonia_crystal_block"
   )
 
   // Wireless terminal: glowstone dust -> empowered diamatine crystal block

@@ -1,0 +1,192 @@
+[damage]
+	#Percentage of max health for drowning damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageDrowning = 0.05
+	#Percentage of max health for fire/in-fire damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageFire = 0.05
+	#Percentage of max health for lava damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageLava = 0.05
+	#Percentage of max health for poison damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentagePoison = 0.05
+	#Percentage of max health for wither damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageWither = 0.05
+	#Percentage of max health for void/out-of-world damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageVoid = 0.05
+	#Percentage of max health for starvation damage (0.0 to 1.0). Set to 0 to use vanilla amount.
+	#Mod default: 0.05 (5%). Vanilla: 1.0 fixed per tick.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	damagePercentageStarve = 0.05
+	#When true, percentage-based damage applies to all entities (mobs, players, etc.).
+	#When false, percentage-based damage applies only to players. Mod default: false.
+	#Affects: drowning, fire, lava, poison, wither, void damage.
+	percentageDamageAllEntities = false
+
+[armorScaling]
+	#Enable custom armor scaling (changes how armor reduces damage).
+	#Vanilla: effective armor cap 20, divider 25 (20 armor ~= 80% reduction).
+	enabled = true
+	#Maximum effective armor used in the armor reduction formula.
+	#Mod default: 45. Vanilla: 20.
+	# Default: 45.0
+	# Range: 20.0 ~ 200.0
+	maxEffectiveArmor = 45.0
+	#Divider used to convert effective armor into damage reduction, then capped by maxDamageReduction.
+	#Mod default: 56.25. Vanilla: 25.
+	# Default: 56.25
+	# Range: 25.0 ~ 200.0
+	protectionDivider = 56.25
+	#Maximum damage reduction allowed from the armor step (0.0 to 1.0).
+	#Mod default: 0.7 (70%). Vanilla: 0.8 (80%).
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	maxDamageReduction = 0.7
+
+[resistance]
+	#Use custom per-level damage reduction for the Resistance effect (potions, beacon).
+	#When true, the reduction at each level (I–IV) is set by the options below (0.0 to 1.0).
+	enabled = true
+	#Damage reduction for Resistance I (amplifier 0). Mod default: 0.10 (10%). Vanilla: 0.20 (20%).
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	level0 = 0.1
+	#Damage reduction for Resistance II (amplifier 1). Mod default: 0.25 (25%). Vanilla: 0.40 (40%).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	level1 = 0.25
+	#Damage reduction for Resistance III (amplifier 2). Mod default: 0.40 (40%). Vanilla: 0.60 (60%).
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	level2 = 0.4
+	#Damage reduction for Resistance IV (amplifier 3). Mod default: 0.60 (60%). Vanilla: 0.80 (80%).
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	level3 = 0.6
+
+[experience]
+	#Multiplier for all experience points the player gains. 1.0 = vanilla, 2.0 = double XP, 0.5 = half XP.
+	#Affects: picking up experience orbs, killing mobs, smelting/cooking in furnaces, fishing, breeding animals,
+	#bottles o' enchanting, grindstone disenchanting, and any other source that uses giveExperiencePoints.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	multiplier = 1.0
+
+[durability]
+	#Global multiplier for item durability. 1.0 = vanilla. 2.0 = items last twice as long (half durability loss), 0.5 = items wear twice as fast.
+	#Affects all damageable items: tools (mining, attacking), armor (hits, Elytra flight), shields, bows, crossbows,
+	#fishing rods, shears, flint and steel, brushes, carrot on a stick, etc.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	multiplier = 1.0
+	#When true, tools and weapons never break when they would reach 0 durability - they stay at 1 durability instead.
+	#Affects: pickaxes, axes, shovels, hoes, swords, tridents, bows, crossbows, shields, shears, fishing rods, etc.
+	toolsNeverBreakAtMinDurability = true
+	#When true, tools and weapons at 1 durability cannot be used (block breaking, attacking) until repaired.
+	toolsAtMinDurabilityCannotBeUsed = true
+
+[mob]
+	#Global multiplier for mob max health. 1.0 = vanilla. 2.0 = mobs have twice as much health. Does not affect players.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	healthMultiplier = 1.0
+	#Global multiplier for damage dealt by mobs (melee, projectiles, etc.). 1.0 = vanilla. 2.0 = mobs deal double damage. Does not affect player-dealt damage.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	damageMultiplier = 1.0
+
+	[mob.dimensionScaling]
+		#Enable dimension-based mob scaling. When true, uses per-dimension health/damage multipliers below.
+		#When false, uses the global mob.healthMultiplier and mob.damageMultiplier above.
+		enabled = false
+		#Custom dimension overrides. Format: "dimension_id|health_mult|damage_mult" e.g. "modid:custom_dim|1.5|1.2"
+		#Unlisted dimensions use global mob multipliers when dimension scaling is enabled.
+		custom = []
+
+		[mob.dimensionScaling.overworld]
+			#Health multiplier for mobs in the Overworld (minecraft:overworld). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.01 ~ 100.0
+			healthMultiplier = 1.0
+			#Damage multiplier for mobs in the Overworld (minecraft:overworld). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			damageMultiplier = 1.0
+
+		[mob.dimensionScaling.the_nether]
+			#Health multiplier for mobs in the Nether (minecraft:the_nether). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.01 ~ 100.0
+			healthMultiplier = 1.0
+			#Damage multiplier for mobs in the Nether (minecraft:the_nether). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			damageMultiplier = 1.0
+
+		[mob.dimensionScaling.the_end]
+			#Health multiplier for mobs in the End (minecraft:the_end). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.01 ~ 100.0
+			healthMultiplier = 1.0
+			#Damage multiplier for mobs in the End (minecraft:the_end). 1.0 = vanilla.
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			damageMultiplier = 1.0
+
+	[mob.sharpness]
+		#When true, Sharpness adds a percentage damage increase per level instead of vanilla's flat bonus.
+		#Formula: damage *= (1 + percentPerLevel * level). E.g. 0.10 at level 3 = 30% more damage.
+		percentDamageEnabled = true
+		#Percentage (0.0 to 1.0) added per Sharpness level when percentDamageEnabled is true. 0.10 = 10% per level (I=10%, II=20%, III=30%, etc.).
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		percentPerLevel = 0.1
+
+	[mob.healing]
+		#Percentage of max health that each heal restores (0.0 to 1.0). Applies to natural regen, Regeneration effect, potions, etc.
+		#Mod default: 0.05 (5%). Vanilla: uses its own formula.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		healPercentage = 0.05
+		#When true, percentage-based healing applies to all entities. When false, only players. Mod default: false.
+		healAllEntities = false
+
+	[mob.wanderingTrader]
+		#Multiplier for wandering trader spawn interval. Vanilla: ~20 minutes between spawn attempts.
+		#1.0 = vanilla. 0.5 = spawns twice as often (~10 min). 2.0 = half as often (~40 min).
+		#Minimum 0.1, maximum 10.0.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		spawnIntervalMultiplier = 1.0
+
+	[mob.phantom]
+		#Multiplier for phantom spawn interval. Vanilla: ~1-2 minutes between spawn attempts.
+		#1.0 = vanilla. 0.5 = spawns twice as often. 2.0 = half as often.
+		#Minimum 0.1, maximum 10.0.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		spawnIntervalMultiplier = 1.0
+
+	[mob.hunger]
+		#Multiplier for hunger drain rate. Affects all exhaustion sources (sprinting, mining, attacking, healing, etc.).
+		#1.0 = vanilla. 2.0 = hunger drains twice as fast. 0.5 = hunger drains half as fast.
+		#Minimum 0.01, maximum 10.0.
+		# Default: 1.0
+		# Range: 0.01 ~ 10.0
+		drainMultiplier = 1.0
