@@ -1,0 +1,54 @@
+name: Deploy CurseForge
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      PACK_ZIP: release-pack.zip
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Install packwiz and add to PATH
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Verify packwiz files
+        run: |
+          packwiz --version
+          test -f pack.toml
+
+      - name: Export CurseForge pack
+        run: |
+          packwiz refresh
+          packwiz curseforge export -o "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Publish to CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          curseforge-id: ${{ secrets.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_API_TOKEN }}
+          files: ${{ env.PACK_ZIP }}
+          name: ${{ github.ref_name }}
+          version-type: release
+          game-versions: |
+            1.21.1
+          loaders: |
+            neoforge
