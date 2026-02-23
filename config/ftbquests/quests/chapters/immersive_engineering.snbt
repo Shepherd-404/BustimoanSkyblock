@@ -28,8 +28,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.5d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5524F5D8DEA7B3C0"]
@@ -40,8 +40,8 @@
 				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5524F5D8DEA7B3C0"]
@@ -61,8 +61,8 @@
 				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["16B90047242E9770"]
@@ -102,8 +102,8 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			id: "4DA836DA69D439AF"
@@ -158,8 +158,8 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			id: "0C3FEBAFE3DB87BC"
@@ -240,6 +240,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["21A0EEFE2FACAA95"]
 			icon: {
 				id: "immersiveengineering:fermenter"
 			}
@@ -281,10 +282,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 2.5d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
+			dependencies: ["21A0EEFE2FACAA95"]
 			icon: {
 				id: "immersiveengineering:refinery"
 			}
@@ -326,8 +328,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3.5d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			icon: {
@@ -349,8 +351,8 @@
 				item: { count: 1, id: "immersiveengineering:phenolic_resin_bucket" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["66A2C72A6239846D"]
@@ -360,8 +362,8 @@
 				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -374,8 +376,8 @@
 				item: { count: 1, id: "immersiveengineering:acetaldehyde_bucket" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1548CF6D8510EC87"]
@@ -385,8 +387,8 @@
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			id: "619869419478EDD3"
@@ -426,8 +428,8 @@
 				item: { count: 1, id: "immersiveengineering:creosote_bucket" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4A03A5180B5F493D"]
@@ -448,8 +450,8 @@
 				item: { count: 1, id: "immersiveengineering:light_bulb" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D0AB2306202DB4F"]
@@ -459,8 +461,8 @@
 				item: { count: 1, id: "minecraft:potato" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			id: "4F2E4097165CFDDC"
@@ -489,8 +491,71 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "087F8F2E80A538E0"
+			tasks: [{
+				id: "0CB5A97D5B02E603"
+				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "14101C98C78C4726"
+			tasks: [{
+				id: "1427462222490806"
+				item: { count: 1, id: "immersiveengineering:wirecoil_copper_ins" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "1108BB4E7D5DC0F6"
+			tasks: [{
+				id: "775B11F77A022C90"
+				item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4D85D86A16BED10E"]
+			id: "216E06A53931CB83"
+			tasks: [{
+				id: "592439808C0F0C30"
+				item: { count: 1, id: "immersiveengineering:advanced_blast_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["73BD606B7A3477B7"]
+			id: "4D85D86A16BED10E"
+			tasks: [{
+				id: "7936F9F6A9B01BB7"
+				item: { count: 1, id: "immersiveengineering:blast_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["216E06A53931CB83"]
+			id: "21A0EEFE2FACAA95"
+			tasks: [{
+				id: "15BA356906604EED"
+				item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
 		}
 	]
 }

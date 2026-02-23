@@ -1,0 +1,25 @@
+---
+description: Use modpack item ID list for exact IDs in scripts and quests
+globs: "**/*.js,**/quests/**/*.snbt,**/chapters/**/*.snbt"
+alwaysApply: true
+---
+
+# Item ID reference for Bustimoan Skyblock modpack
+
+When writing KubeJS scripts (server_scripts, client_scripts) or editing FTB Quests (config/ftbquests), **always use exact item IDs** from the modpack’s canonical list.
+
+## Canonical source
+
+- **File:** `C:\MinecraftModspacks\Item_ids\Item_ids.txt`
+- **Format:** One ID per line, `modname:itemname` (e.g. `alltheores:steel_dust`, `sophisticatedstorage:controller`).
+
+## What to do
+
+1. **Before using any item ID** in recipes, removals, JEI/REI hiding, or quest tasks, **look it up** in `Item_ids.txt` (e.g. via grep/search).
+2. **Use the string from that file exactly** — same namespace, same path, no typos.
+3. Do not guess or infer IDs from mod names; the list reflects the **current modpack** and may differ from default mod IDs.
+
+## Applies to
+
+- KubeJS: `event.remove()`, `event.shaped()` / `event.shapeless()`, item stacks in recipes, RecipeViewerEvents.
+- FTB Quests: `item:` in quest tasks, any `id: "modname:itemname"` in SNBT.
