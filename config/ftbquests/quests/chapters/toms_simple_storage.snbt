@@ -15,7 +15,7 @@
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -26,7 +26,7 @@
 				item: { components: { "toms_storage:bound_pos": { bound_dim: "minecraft:overworld", bounds_pos: [I; 8222, 65, -1 ] } }, count: 1, id: "toms_storage:adv_wireless_terminal" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -40,7 +40,7 @@
 				item: { count: 1, id: "toms_storage:wireless_terminal" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -51,8 +51,128 @@
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 4.0d
+		}
+		{
+			id: "52164C323A499538"
+			tasks: [{
+				id: "0C48BF5E8445C40A"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "6FBEA7E2F3BE253A"
+			tasks: [{
+				id: "46C75FB1ED0BF386"
+				item: { count: 1, id: "toms_storage:inventory_cable" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "66BD1D6A6663EE60"
+			tasks: [{
+				id: "1A206D76D284FEB7"
+				item: { count: 1, id: "toms_storage:filing_cabinet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "3E78CFA135E327DF"
+			tasks: [{
+				id: "6936415861994DFD"
+				item: { count: 1, id: "toms_storage:inventory_interface" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "3DB341766CD47957"
+			tasks: [{
+				id: "5264DB33D5F3AA26"
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DB341766CD47957"]
+			id: "2828DF84BFDFA453"
+			tasks: [{
+				id: "28888ABB0AB3C90B"
+				item: { count: 1, id: "toms_storage:item_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "6FBA09B9E6827584"
+			tasks: [{
+				id: "37319F6BD6F3B68B"
+				item: { count: 1, id: "toms_storage:level_emitter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52164C323A499538"]
+			id: "5BE283FDD51CE0CB"
+			tasks: [{
+				id: "33A0D52DAC50BBCE"
+				item: { count: 1, id: "toms_storage:inventory_configurator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FBEA7E2F3BE253A"]
+			id: "75CAD9F38C85D03D"
+			tasks: [{
+				id: "28DE315F27A3AA0B"
+				item: { count: 1, id: "toms_storage:inventory_cable_framed" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FBEA7E2F3BE253A"]
+			id: "56723B5441C0FB4C"
+			tasks: [{
+				id: "2A1BE1A1DF1B1F73"
+				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FBEA7E2F3BE253A"]
+			id: "4C1BBF5C2BF06CA6"
+			tasks: [{
+				id: "56A575D9C1C4320B"
+				item: { count: 1, id: "toms_storage:inventory_cable_connector_framed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
 		}
 	]
 }

@@ -19,7 +19,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["635CCAED486DC2C3"]
@@ -30,7 +30,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["635CCAED486DC2C3"]
@@ -41,7 +41,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E833013BFB011D4"]
@@ -52,7 +52,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -75,7 +75,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: -6.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -89,7 +89,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["635CCAED486DC2C3"]
@@ -100,7 +100,117 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E833013BFB011D4"]
+			id: "2B36EF7C1E217B1D"
+			tasks: [{
+				id: "0F99F0C3BBF94A97"
+				item: { count: 1, id: "actuallyadditions:powered_furnace" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["635CCAED486DC2C3"]
+			id: "2973326421CE1853"
+			tasks: [{
+				id: "78A3FA757F849FC2"
+				item: { count: 1, id: "actuallyadditions:enori_crystal_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2973326421CE1853"]
+			id: "600FF0C59CD25EB3"
+			tasks: [{
+				id: "4D71228B38482DCB"
+				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2973326421CE1853"]
+			id: "51EA7C26A7B4C7E3"
+			tasks: [{
+				id: "7C9C00B419DEBC64"
+				item: { count: 1, id: "actuallyadditions:farmer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["600FF0C59CD25EB3"]
+			id: "2982F6E3F5DD2285"
+			tasks: [{
+				id: "23D044C66088A40C"
+				item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B9A88FAF969B1E1"]
+			id: "6F37C14C41A2EBF2"
+			tasks: [{
+				id: "5D6A181A9F73E758"
+				item: { count: 1, id: "actuallyadditions:leaf_generator" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E833013BFB011D4"]
+			id: "28091B1628034CF1"
+			tasks: [{
+				id: "53CF2D4F1275BBA3"
+				item: { count: 1, id: "actuallyadditions:crusher" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28091B1628034CF1"]
+			id: "1AFC6F9F07A36A20"
+			tasks: [{
+				id: "28AFA8DAE4D45536"
+				item: { count: 1, id: "actuallyadditions:crusher_double" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E833013BFB011D4"]
+			id: "5AFFBD597F1B6F18"
+			tasks: [{
+				id: "1BED7372894F5C6D"
+				item: { count: 1, id: "actuallyadditions:coal_generator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E833013BFB011D4"]
+			id: "158985BDC0AFF0D6"
+			tasks: [{
+				id: "078671539F3CBC36"
+				item: { count: 1, id: "actuallyadditions:oil_generator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 }
