@@ -6,5 +6,115 @@
 	id: "2B03324B6A84A1A2"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "53420460A88295E1"
+			tasks: [{
+				id: "4EF49AA6C33D434D"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53420460A88295E1"]
+			id: "5BD900CF1813CD5B"
+			tasks: [{
+				id: "6D87F875EB9CDD84"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BD900CF1813CD5B"]
+			id: "7B565FC15B88F031"
+			tasks: [{
+				id: "7212E3C76719A56F"
+				item: { count: 1, id: "enderio:dark_steel_grinding_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45AA34CBFA29B000"]
+			id: "34927E6C0561BD8A"
+			tasks: [{
+				id: "4029844B6B6D14D2"
+				item: { count: 1, id: "enderio:energetic_alloy_grinding_ball" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34927E6C0561BD8A"]
+			id: "1CF70AA954B227DA"
+			tasks: [{
+				id: "368A0F81DFC96974"
+				item: { count: 1, id: "enderio:vibrant_alloy_grinding_ball" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BD900CF1813CD5B"]
+			id: "02B7999B73836DA4"
+			tasks: [{
+				id: "17A6DCCE01849C0E"
+				item: { count: 1, id: "enderio:redstone_alloy_grinding_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BD900CF1813CD5B"]
+			id: "45AA34CBFA29B000"
+			tasks: [{
+				id: "3DB85E1A22E33F7C"
+				item: { count: 1, id: "enderio:conductive_alloy_grinding_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BD900CF1813CD5B"]
+			id: "2ADE053043450040"
+			tasks: [{
+				id: "555959F96FF8071E"
+				item: { count: 1, id: "enderio:pulsating_alloy_grinding_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BD900CF1813CD5B"]
+			id: "44CCBD3DB3BF1E41"
+			tasks: [{
+				id: "320F9EDB85E7F475"
+				item: { count: 1, id: "enderio:soularium_grinding_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B565FC15B88F031"]
+			id: "0AC67ED7AFBF093C"
+			tasks: [{
+				id: "4F5E534F3257F493"
+				item: { count: 1, id: "enderio:end_steel_grinding_ball" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+	]
 }

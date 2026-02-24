@@ -7,5 +7,8 @@
     { "count": 1, "item": "minecraft:echo_shard" },
     { "count": 1, "item": "immersiveengineering:sheetmetal_lead" }
   ],
-  "output": { "count": 1, "id": "enderio:void_chassis" }
+  "output": {
+    "count": 1,
+    "id": "enderio:void_chassis"
+  }
 }

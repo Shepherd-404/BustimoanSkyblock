@@ -111,7 +111,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["635CCAED486DC2C3"]
@@ -121,7 +121,7 @@
 				item: { count: 1, id: "actuallyadditions:enori_crystal_block" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -132,7 +132,7 @@
 				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal_block" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -154,7 +154,7 @@
 				item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
