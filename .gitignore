@@ -30,7 +30,7 @@
 
 ## config files we want to exclude cause they automatically update and cause merge conflicts
 /config/packetfixer.properties
-
+/config/fabric/indigo-renderer.properties
 
 
 ## TOP level files we want to exclude
@@ -48,6 +48,4 @@ config/ItemLocks/nodes/**/*
 config/skyblockbuilder/templates/islands/default.nbt
 # we may add options.txt out of the .ignore in the future, but for now we want to ignore it to avoid merge conflicts
 options.txt 
-
-
 
