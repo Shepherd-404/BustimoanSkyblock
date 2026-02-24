@@ -1,6 +1,6 @@
 {
   "type": "enderio:slicing",
-  "energy": 20000,
+  "energy": 75000,
   "inputs": [
     { "tag": "c:dusts/grains_of_vibrancy" },
     { "item": "enderio:double_layer_capacitor" },
