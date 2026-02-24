@@ -1,0 +1,16 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    { "tag": "c:dusts/grains_of_vibrancy" },
+    { "item": "enderio:double_layer_capacitor" },
+    { "tag": "c:dusts/grains_of_vibrancy" },
+    { "tag": "c:dusts/grains_of_vibrancy" },
+    { "item": "enderio:double_layer_capacitor" },
+    { "tag": "c:dusts/grains_of_vibrancy" }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:octadic_capacitor"
+  }
+}

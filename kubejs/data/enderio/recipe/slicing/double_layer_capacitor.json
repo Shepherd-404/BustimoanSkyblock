@@ -1,0 +1,16 @@
+{
+  "type": "enderio:slicing",
+  "energy": 50000,
+  "inputs": [
+    { "item": "enderio:basic_capacitor" },
+    { "item": "immersiveengineering:redstone_state_cell" },
+    { "item": "enderio:basic_capacitor" },
+    { "tag": "c:ingots/electrum" },
+    { "item": "enderio:energetic_alloy_ingot" },
+    { "tag": "c:ingots/electrum" }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:double_layer_capacitor"
+  }
+}

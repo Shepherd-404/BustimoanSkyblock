@@ -433,6 +433,7 @@
 	quest.10C222CB4E28CF89.quest_subtitle: "{count:1,id:\"minecraft:horn_coral\"}"
 	quest.10CDC3422065984F.quest_subtitle: "{count:1,id:\"actuallyadditions:laser_wrench\"}"
 	quest.10DCA877C06030F9.quest_subtitle: "{count:1,id:\"sophisticatedstorage:advanced_filter_upgrade\"}"
+	quest.10E626DFC65641BC.title: "Arc furnace"
 	quest.10F3176E17F04BF1.quest_subtitle: "{count:1,id:\"minecraft:ender_chest\"}"
 	quest.10F404377DAB6D4F.quest_subtitle: "{count:1,id:\"minecraft:warped_fungus_on_a_stick\"}"
 	quest.1139E669872C4658.quest_subtitle: "{count:1,id:\"sophisticatedstorage:smelting_upgrade\"}"
