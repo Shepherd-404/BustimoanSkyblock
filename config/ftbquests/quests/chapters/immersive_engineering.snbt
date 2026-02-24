@@ -29,7 +29,7 @@
 				}
 			]
 			x: -3.5d
-			y: -5.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5524F5D8DEA7B3C0"]
@@ -40,7 +40,7 @@
 				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -7.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -5.5d
 		}
 		{
@@ -73,8 +73,8 @@
 				item: { count: 1, id: "immersiveengineering:resonanz_engineering" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -91,8 +91,8 @@
 				item: { count: 1, id: "immersiveengineering:component_electronic_adv" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6269F54506A897A4"]
@@ -112,8 +112,8 @@
 				item: { count: 1, id: "immersiveengineering:electron_tube" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -126,8 +126,8 @@
 				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C3FEBAFE3DB87BC"]
@@ -137,8 +137,8 @@
 				item: { count: 1, id: "immersiveengineering:wire_aluminum" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			id: "069B1D2ACA071B2B"
@@ -147,8 +147,8 @@
 				item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55A87A81283E7D51"]
@@ -168,8 +168,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecutter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F0E4FC8E699F8F6"]
@@ -191,8 +191,8 @@
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -215,8 +215,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 3.0d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			id: "2F0E4FC8E699F8F6"
@@ -224,8 +224,8 @@
 				id: "7476FA43E3B7F9A5"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F0E4FC8E699F8F6"]
@@ -236,8 +236,8 @@
 				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["21A0EEFE2FACAA95"]
@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: -9.5d
 		}
 		{
@@ -329,15 +329,51 @@
 				}
 			]
 			x: 1.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			icon: {
 				id: "immersiveengineering:bottling_machine"
 			}
 			id: "6C0E57205D65B666"
-			x: 2.0d
-			y: 4.5d
+			tasks: [
+				{
+					count: 2L
+					id: "26FA6611D5CDD402"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "478E7A0BB15185A9"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "039B0C1D2E3F4A5B"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "47097E7EEF88A241"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0D1AAE4C0D523F38"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "4ED92E3ECAFBB75E"
+					item: { count: 1, id: "immersiveengineering:fluid_pump" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -351,8 +387,8 @@
 				item: { count: 1, id: "immersiveengineering:phenolic_resin_bucket" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["66A2C72A6239846D"]
@@ -362,7 +398,7 @@
 				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -8.0d
 		}
 		{
@@ -376,8 +412,8 @@
 				item: { count: 1, id: "immersiveengineering:acetaldehyde_bucket" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1548CF6D8510EC87"]
@@ -387,18 +423,22 @@
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"6C0E57205D65B666"
+				"1BD11E18C9CBF54C"
+			]
 			id: "619869419478EDD3"
 			tasks: [{
 				id: "06445A8E929DB190"
 				item: { count: 1, id: "immersiveengineering:fluid_pump" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 6.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["320AB4E59847E5CD"]
@@ -417,8 +457,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 2.0d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["73BD606B7A3477B7"]
@@ -439,8 +479,8 @@
 				id: "1C04B682CFD8A234"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 10.5d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["449536A5EEAC66EA"]
@@ -450,8 +490,8 @@
 				item: { count: 1, id: "immersiveengineering:light_bulb" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4D0AB2306202DB4F"]
@@ -461,8 +501,8 @@
 				item: { count: 1, id: "minecraft:potato" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			id: "4F2E4097165CFDDC"
@@ -471,67 +511,83 @@
 				item: { count: 1, id: "immersiveengineering:treated_post" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["0C3FEBAFE3DB87BC"]
 			id: "2B9FED670E77E248"
 			tasks: [{
 				id: "6EAE877372349E6E"
 				item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["0C3FEBAFE3DB87BC"]
 			id: "4F5EB3D9847177A9"
 			tasks: [{
 				id: "2D4BFDE268A4D72E"
 				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["0C3FEBAFE3DB87BC"]
 			id: "087F8F2E80A538E0"
 			tasks: [{
 				id: "0CB5A97D5B02E603"
 				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.5d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["2B9FED670E77E248"]
 			id: "14101C98C78C4726"
 			tasks: [{
 				id: "1427462222490806"
 				item: { count: 1, id: "immersiveengineering:wirecoil_copper_ins" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["4F5EB3D9847177A9"]
 			id: "1108BB4E7D5DC0F6"
 			tasks: [{
 				id: "775B11F77A022C90"
 				item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4D85D86A16BED10E"]
+			icon: {
+				id: "immersiveengineering:advanced_blast_furnace"
+			}
 			id: "216E06A53931CB83"
-			tasks: [{
-				id: "592439808C0F0C30"
-				item: { count: 1, id: "immersiveengineering:advanced_blast_furnace" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 27L
+					id: "592439808C0F0C30"
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "01EC18883D7D4AA7"
+					item: { count: 1, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -8.5d
 		}
@@ -539,8 +595,9 @@
 			dependencies: ["73BD606B7A3477B7"]
 			id: "4D85D86A16BED10E"
 			tasks: [{
+				count: 27L
 				id: "7936F9F6A9B01BB7"
-				item: { count: 1, id: "immersiveengineering:blast_furnace" }
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -556,6 +613,339 @@
 			}]
 			x: 1.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["0C3FEBAFE3DB87BC"]
+			id: "0BDF544871F8A26B"
+			tasks: [{
+				id: "17D5F1E30E2C2857"
+				item: { count: 1, id: "immersiveengineering:wirecoil_redstone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14101C98C78C4726"]
+			id: "769F51EA7911E625"
+			tasks: [{
+				id: "6DA2F8541150A744"
+				item: { count: 1, id: "immersiveengineering:connector_lv" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1108BB4E7D5DC0F6"]
+			id: "29BC457350359D35"
+			tasks: [{
+				id: "32D74F5BB120DA6C"
+				item: { count: 1, id: "immersiveengineering:connector_mv" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["087F8F2E80A538E0"]
+			id: "6A6333569A164AFB"
+			tasks: [{
+				id: "107549D2B6119D09"
+				item: { count: 1, id: "immersiveengineering:connector_hv" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["769F51EA7911E625"]
+			id: "155BC30709C15EEF"
+			tasks: [{
+				id: "753672C71B2F0356"
+				item: { count: 1, id: "immersiveengineering:connector_lv_relay" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BDF544871F8A26B"]
+			id: "7B7428CED3BFB937"
+			tasks: [{
+				id: "3D2D4EC726144C2C"
+				item: { count: 1, id: "immersiveengineering:connector_redstone" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29BC457350359D35"]
+			id: "385FA2977EB0DA69"
+			tasks: [{
+				id: "679988EAF0C3D32B"
+				item: { count: 1, id: "immersiveengineering:connector_mv_relay" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A6333569A164AFB"]
+			id: "23DE96EAE6B35BCE"
+			tasks: [{
+				id: "294CED5EABCE178A"
+				item: { count: 1, id: "immersiveengineering:connector_hv_relay" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21A0EEFE2FACAA95"]
+			icon: {
+				id: "immersiveengineering:metal_press"
+			}
+			id: "01F8183FF3A7B973"
+			tasks: [
+				{
+					id: "21F9931D6C4309DB"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "4F6CEE75899BF052"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					id: "07D62D60C00AC779"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "283A6CDB5BCB1A4E"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4EFDB7255A6EA8A5"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["01F8183FF3A7B973"]
+			id: "0D3F5ACD4B9912C2"
+			tasks: [{
+				id: "59CEE783D02347DC"
+				item: { count: 1, id: "immersiveengineering:plate_steel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D3F5ACD4B9912C2"]
+			id: "2460D8EFFCF88FC6"
+			tasks: [{
+				id: "58AEF62095B3A072"
+				item: { count: 1, id: "immersiveengineering:component_steel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1BD11E18C9CBF54C"]
+			id: "0E955A89FEFE7FDB"
+			tasks: [{
+				id: "161B72B2B4F26E1F"
+				item: { count: 1, id: "immersiveengineering:component_iron" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["01F8183FF3A7B973"]
+			id: "1BD11E18C9CBF54C"
+			tasks: [{
+				id: "2770E7D6C8F14DC0"
+				item: { count: 1, id: "immersiveengineering:plate_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0E955A89FEFE7FDB"]
+			id: "63ADC24945B24BEB"
+			tasks: [{
+				id: "091F3BFC19A1E742"
+				item: { count: 1, id: "immersiveengineering:light_engineering" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"2460D8EFFCF88FC6"
+				"63ADC24945B24BEB"
+			]
+			id: "37B1CDD0ACFEA75C"
+			tasks: [{
+				id: "0026B5B0A5DB9A40"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["21A0EEFE2FACAA95"]
+			icon: {
+				id: "immersiveengineering:squeezer"
+			}
+			id: "5E20E7A9924E9510"
+			tasks: [
+				{
+					count: 2L
+					id: "2A6CF2D50A985E61"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "6CA5A55C2CB84F8D"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "66977BBF8555F42A"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6037CA936AFF6D70"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "49E854FD804AB5AD"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1DB43456143C5056"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4356137344D9E1A6"
+					item: { count: 1, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5E20E7A9924E9510"]
+			id: "15D5A1B54B4CF732"
+			tasks: [{
+				id: "186C6930BF26D146"
+				item: { count: 1, id: "immersiveengineering:plantoil_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"15D5A1B54B4CF732"
+				"35F219BE6AD57B2E"
+			]
+			id: "2F530873BEDA60D6"
+			tasks: [{
+				id: "189F010B7C77A3C6"
+				item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2F530873BEDA60D6"]
+			id: "78BE721BC439068E"
+			tasks: [{
+				id: "6AE566644D502A90"
+				item: { count: 1, id: "immersiveengineering:high_power_biodiesel_bucket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"37B1CDD0ACFEA75C"
+				"7582A3B9CCE7939F"
+			]
+			id: "0C96275013BB4BC0"
+			tasks: [{
+				id: "554289B0A2059F2F"
+				item: { count: 1, id: "immersiveengineering:resonanz_engineering" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"79259C97C11ACFFC"
+				"7B7428CED3BFB937"
+				"404CBD3B1649B719"
+			]
+			id: "7582A3B9CCE7939F"
+			tasks: [{
+				id: "188A023929D9011D"
+				item: { count: 1, id: "immersiveengineering:rs_engineering" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BDF544871F8A26B"]
+			id: "404CBD3B1649B719"
+			tasks: [{
+				id: "0DE7478235BAE4CF"
+				item: { count: 1, id: "immersiveengineering:redstone_switchboard" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0BDF544871F8A26B"]
+			id: "79259C97C11ACFFC"
+			tasks: [{
+				id: "69C351F6C40D5E33"
+				item: { count: 1, id: "immersiveengineering:redstone_state_cell" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
 		}
 	]
 }
