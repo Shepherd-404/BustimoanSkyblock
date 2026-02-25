@@ -703,16 +703,18 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["37D9404EF5C0679E"]
 			id: "27AFFD8F87C18537"
 			tasks: [{
 				id: "086F9E245F0A9CE8"
 				item: { components: { "enderio:soul": { entity_tag: { }, entity_type: "minecraft:enderman" } }, count: 1, id: "enderio:soul_vial" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["27AFFD8F87C18537"]
 			id: "71FCBE58EA0ED8E9"
 			tasks: [{
 				id: "366DF162B9528602"
@@ -721,6 +723,28 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0A95705FDC22A25B"]
+			id: "6CA18673BFC439E7"
+			tasks: [{
+				id: "26395E82D9F70310"
+				item: { components: { "enderio:conduit": "enderio:redstone" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53420460A88295E1"]
+			id: "467BA47A6ABCFD8F"
+			tasks: [{
+				id: "11E5F220D18844DA"
+				item: { count: 1, id: "enderio:weather_obelisk" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 }
