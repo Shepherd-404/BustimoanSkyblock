@@ -30,11 +30,12 @@
 
 ## config files we want to exclude cause they automatically update and cause merge conflicts
 /config/packetfixer.properties
-/config/fabric/indigo-renderer.properties
+/config/fabric
 /kubejs/.cursor/
 
 ## TOP level files we want to exclude
 .curseclient
+.git.code-workspace
 command_history.txt
 minecraftinstance.json
 observable_announce
