@@ -23,19 +23,24 @@
 /shaderpacks
 /skyblockbuilder
 /waypoints
-
 ## Sub folders we want to exclude
 /config/jei/world
 /config/spark/tmp
-
+/kubejs/Item_and_fluid_ids
+/kubejs/.cursor/
 ## config files we want to exclude cause they automatically update and cause merge conflicts
 /config/packetfixer.properties
 /config/fabric
+/config/jei/recipe-category-sort-order.ini
+/config/jei/ingredient-list-mod-sort-order.ini
+/config/skyblockbuilder/data/dimensions.txt
 /kubejs/.cursor/
+.cursor/rules/kubejs-item-ids.mdc
 
 ## TOP level files we want to exclude
 .curseclient
 .git.code-workspace
+user-prefs.json
 command_history.txt
 minecraftinstance.json
 observable_announce
