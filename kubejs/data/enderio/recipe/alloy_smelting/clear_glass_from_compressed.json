@@ -1,0 +1,12 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4000,
+  "experience": 0,
+  "inputs": [
+    { "count": 1, "item": "allthecompressed:glass_1x" }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:clear_glass"
+  }
+}
